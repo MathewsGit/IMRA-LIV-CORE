@@ -41,8 +41,8 @@ The system uses a priority-based warning system:
 
 ## 🔧 Installation & Setup
 
-1. **Vision:** Run `python face_track.py` to start the vision tracking node.
-2. **Firmware:** Flash `mega_control.ino` to the Arduino Mega and `esp_wifi_bridge.ino` to the NodeMCU.
+1. **Vision:** Run `python following.py` to start the vision tracking node.
+2. **Firmware:** Flash `mega.ino` to the Arduino Mega and `esp_wifi_bridge.ino` to the NodeMCU.
 3. **Database:** Configure your `FIREBASE_HOST` and `FIREBASE_AUTH` in the ESP8266 code.
 
 ---
