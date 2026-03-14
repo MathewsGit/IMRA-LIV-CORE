@@ -24,11 +24,9 @@
 #define DHTTYPE DHT11
 DHT dht (DHTPIN,DHTTYPE);
 
-#define FIREBASE_HOST "imra-liv-142d5-default-rtdb.firebaseio.com"
-#define FIREBASE_AUTH "Rr4WC4vGNTdohLZ3va0AqpEAIVRiP3O6oaW71GnB"
+#define FIREBASE_HOST "host"
+#define FIREBASE_AUTH "auth"
 
-// #define FIREBASE_HOST "imra-liv-default-rtdb.asia-southeast1.firebasedatabase.app"
-// #define FIREBASE_AUTH "Vkd7Ivnzh669znqRPY0po9hjW15Q6IRQKyqQ3KdS"
 
 #define WIFI_SSID "mathews"
 #define WIFI_PASSWORD "12345678"
